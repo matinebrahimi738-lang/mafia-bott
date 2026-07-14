@@ -50,7 +50,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # توکن را از متغیر محیطی بخوان؛ هرگز اینجا هاردکد نکن.
-BOT_TOKEN = ("8941118221:AAEiikPRgIxK_xkQpyR7jHNU2PrzoW_HIGg")
+BOT_TOKEN = "8941118221:AAEiikPRgIxK_xkQpyR7jHNU2PrzoW_HIGg"
 STATS_FILE = Path(__file__).parent / "stats.json"
 
 VERSION = "2.0"
